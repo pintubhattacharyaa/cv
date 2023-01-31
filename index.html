@@ -9,7 +9,7 @@
 <body>
     <table cellspacing="20">
         <tr>
-            <td><img src="D:\Code Test\The_Complete_2023_Web_Development_Course\Code_practice\profilewebsite.jpg" alt="Pintu's Profile Image" height="200">
+            <td><img src="profilewebsite.jpg" alt="Pintu's Profile Image" height="200">
             </td>
             <td>  
                 <h1>Pintu Bhattacharya</h1>
@@ -99,21 +99,5 @@
     <hr>
     <!--<iframe width="420" height="315" src="https://www.youtube.com/embed/p0kd9Wkz730" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     --><hr>
-    <img id="dog-image" src="">
-
-    <script>
-      const imageElement = document.getElementById("dog-image");
-
-      function updateImage() {
-        fetch("https://dog.ceo/api/breeds/image/random")
-          .then(response => response.json())
-          .then(data => {
-            imageElement.src = data.message;
-          });
-      }
-      setInterval(updateImage,100000);
-
-      
-    </script>
 </body>
 </html>
