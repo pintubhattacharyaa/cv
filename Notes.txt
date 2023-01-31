@@ -1,0 +1,23 @@
+headings html mdn - documentation for html
+w3schools html - documentation for html
+devdocs.io - all documentations for developer 
+
+
+<h1> Tag is  headings tag which helps in the font size </h1>
+<h1 > to <h6> is the heading
+There is Element and Attribute: Element has opening tag and closing tag and Attribute is used for adding some of the features in the element used 
+
+<!-- Comment in Html-->
+
+
+web.archive.org  - for looking of  the old websites from start wayback mahcine - 
+
+
+<hr> does not require a closing tag and it is used for horizontional line
+
+<a> tag is for markup which makes you do from one link to another link so it has different types of Attribute the main is href.
+
+<table> is used for making any tables in rows and columns
+<thead> is table head which automatically bolds the content.
+<tbody> is the body where we denote it by <tr> then <td> </td> </tr>  also <tr><th>it is for head </th></tr>
+

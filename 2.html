@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pintu's Personal Site </title>
+</head>
+<body>
+    <table cellspacing="20">
+        <tr>
+            <td><img src="D:\Code Test\The_Complete_2023_Web_Development_Course\Code_practice\profilewebsite.jpg" alt="Pintu's Profile Image" height="200">
+            </td>
+            <td>  
+                <h1>Pintu Bhattacharya</h1>
+                <p><em>Founder and CEO of <strong><a href="https://futuremovesdnf.wixsite.com/fmdf">Future Moves Dance and Fitness</a></strong>.</em></p>
+                <p>I am a Support Engineer I 🖤 Dancing and Coding.</p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h3> Hobbies and Teaching </h3>
+    <ul>
+        <li>Learn Dancing with me in FMDF</li>
+        <li>I do Martial Arts</li>
+        <li>Learning Coding with Angela Yu</li>
+    </ul>
+    <hr>
+    <h3>Work Experience</h3>
+    <table>
+        <thead>
+            <th>Dates</th>
+            <th>Work</th>               
+        </thead>
+        <tbody>
+            <tr>
+                <td>2018-2020</td>
+                <td>Dance Instructor at SJ Studios</td>     
+            </tr>
+            <tr>
+                <td>2020-2022</td>
+                <td>Qualtiy Coach at Kserve</td>
+            </tr>
+        </tbody>       
+    </table>
+    <hr>
+    <h3>Skills</h3>
+    <table cellspacing="5">
+    <tbody>
+          <tr>
+            <td>Adobe</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>Photoshop</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>HTML5</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>Java Script</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>Painting</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>⭐⭐⭐</td>
+            <td>Archery</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Dancing</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>Riding</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Martial Arts</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>Cooking</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+    </tbody> 
+</table>
+    <hr>
+    <a href="teaching.html">Teaching</a>
+    <a href="contactme.html">Contact Me</a>
+    <!--<a href="skills.html">Skills</a>-->
+    <hr>
+    <h4>Contact for Inquiry</h4>
+    <ul>
+        <li><a href="https://futuremovesdnf.wixsite.com/fmdf">Website</a>🌐</li>
+        <li><a href="mailto:futuremovesdnf@gmail.com">Mail</a>📧</li>
+        <li><a href="tel:9011953779">Phone</a>📱</li>
+    </ul>
+    <hr>
+    <!--<iframe width="420" height="315" src="https://www.youtube.com/embed/p0kd9Wkz730" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    --><hr>
+    <img id="dog-image" src="">
+
+    <script>
+      const imageElement = document.getElementById("dog-image");
+
+      function updateImage() {
+        fetch("https://dog.ceo/api/breeds/image/random")
+          .then(response => response.json())
+          .then(data => {
+            imageElement.src = data.message;
+          });
+      }
+      setInterval(updateImage,100000);
+
+      
+    </script>
+</body>
+</html>
